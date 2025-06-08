@@ -42,30 +42,30 @@ export default function Page() {
               </div>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-4 md:justify-start">
-              <Button variant="outline" size="sm" asChild>
+              <Button variant="outline" size="default">
                 <Link href="mailto:shunrises@gmail.com">
-                  <Mail className="w-4 h-4 mr-2" />
+                  <Mail className="w-2 h-2 mr-0.5" />
                   Email
                 </Link>
               </Button>
-              <Button variant="outline" size="sm" asChild>
+              <Button variant="outline" size="default">
                 <Link
                   href="https://www.linkedin.com/in/siyoon-lee"
                   target="_blank"
                 >
-                  <Linkedin className="w-4 h-4 mr-2" />
+                  <Linkedin className="w-2 h-2 mr-0.5" />
                   LinkedIn
                 </Link>
               </Button>
-              <Button variant="outline" size="sm" asChild>
+              <Button variant="outline" size="default">
                 <Link href="https://github.com/shunrises" target="_blank">
-                  <Github className="w-4 h-4 mr-2" />
+                  <Github className="w-2 h-2 mr-0.5" />
                   GitHub
                 </Link>
               </Button>
-              <Button variant="outline" size="sm" asChild>
+              <Button variant="outline" size="default">
                 <Link href="https://refresh.cv/siyoonleekr" target="_blank">
-                  <File className="w-4 h-4 mr-2" />
+                  <File className="w-2 h-2 mr-0.5" />
                   Resume
                 </Link>
               </Button>
